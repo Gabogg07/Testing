@@ -7,9 +7,12 @@ import { Container, Header, Content, Footer, FooterTab, Button, Body, Icon, Text
 import Article from './Article'
 import Home from './Home'
 import FeaturedArticle from './FeaturedArticle'
+import News_Picture from './News_Picture'
+import BottomMenu from "./BottomMenu";
 
 export default class App extends React.Component {
+
  render() {
-        return (<FeaturedArticle/>);
+        return (<Home/>);
   }
 }
