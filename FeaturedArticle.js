@@ -86,6 +86,12 @@ export default class FeaturedArticle extends React.Component {
           </CardItem>
           <CardItem style={{flexDirection: "row"}}>
             <Text>{this.state.date}</Text>
+
+
+
+
+
+            
             <Button transparent onPress={() => Alert.alert('hi')}>
               <Icon  type = "Entypo" name='export' />
             </Button>

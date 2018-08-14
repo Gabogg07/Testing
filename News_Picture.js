@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Alert, StatusBar, WebView, Image, View, Dimensions } from 'react-native';
 import { Font, AppLoading } from 'expo';
-import { Container, Header, Content, Footer, FooterTab, Button, Body,Left, Right, Icon, Text, Title, Card, CardItem, Col, Row, Grid, H3, H1, List, ListItem, Thumbnail} from 'native-base';
+import { Container, Header, Content, Footer, FooterTab, Button, Body,Left, Right, Icon, Text, Title, Card, CardItem, Col, Row, Grid, H3, H1, List, ListItem, Thumbnail, Form, Item, Input, Label} from 'native-base';
 
 import FeaturedArticle from "./FeaturedArticle";
 
